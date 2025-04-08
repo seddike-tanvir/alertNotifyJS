@@ -52,10 +52,14 @@
          </div>
       </main>
       <footer class="footer">
-         <p class="p2" >&copy; <span>2025</span> alertNotifyJS ; All right reserved</p>
+         <p class="p2" >&copy; <span>2024-<span id="current_year"></span></span> alertNotifyJS ; All right reserved</p>
+         <script> document.getElementById('current_year').textContent = new Date().getFullYear(); </script>
          <p class="f_3" ><a>Report an issue</a>    <span class="devider">|</span>    <a href="https://github.com/seddike-tanvir/alertNotify">View on github</a>    <span class="devider">|</span>    <a>Give Feedback</a></p>
          <p class="f_3" >Created by <a href="https://tanvirseddike.web.app">Seddike Tanvir</a>    <span class="devider">|</span>    Licensed under <a href="https://opensource.org/licenses/gpl-3.0">GPLv3</a></p>
       </footer>
+
+
+
       <!-- Highlight.js JS -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
       <!-- Custom JS -->
