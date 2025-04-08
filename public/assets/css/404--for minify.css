@@ -1,0 +1,114 @@
+:root{
+    --bg_color_1: #efefef;;
+}
+
+* {
+    /* user-select: none; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html{
+    background-color: rgba(227, 237, 253, 0.041);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* line-height: 1.6; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: fixed;
+  background-color: var(--bg_color_1);
+  top: 0;
+  width: 100%;
+  height: max-content;
+  border-bottom: 1px solid #00000023;
+  z-index: 1;
+  cursor: grab;
+}
+.nav_header{
+  text-align: left;
+  margin: .7rem 2rem;
+  margin-left: 5vw;
+  font-size: 2.1rem; 
+  font-weight: 900;
+}
+.nav_header > a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  
+}
+.nav_header > a > span{
+  font-size: 2.6rem; 
+  font-weight: 100;
+  padding-left: .25rem;
+  color: #00b100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .error-section {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10vh;
+  }
+  
+  .error-icon {
+    width: 50px;
+    margin-bottom: .5rem;
+  }
+  
+  .error-section h2 {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-bottom: .5rem;
+  }
+  
+  .error-section p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #27ae60;
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }

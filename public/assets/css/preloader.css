@@ -1,0 +1,9 @@
+.pre-loader {
+    background: #ff0000 url(../file/preloader_img.png) no-repeat center center ;
+    background-size: 30%;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: -1; bottom: 0; right: 0; left: 0;
+    z-index: 100;
+}

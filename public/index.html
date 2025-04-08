@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>alertNotify.js</title>
+      <link rel="shortcut icon" href="./assets/file/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="./assets/css/fonts.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link rel="stylesheet" href="./assets/css/tailwindOutput.min.css">
+      <link rel="stylesheet" href="./assets/css/scrollToTopBtn.css">
+      <link rel="stylesheet" href="./assets/css/preloader.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+      <script src="https://kit.fontawesome.com/c516bc1882.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./alertNotify/theme/revisedDefaultTheme.css">
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="preloader"></div>
+      <header class="navbar">
+         <p class="nav_header"><a href="/">alertNotify<span>JS</span></a></p>
+      </header>
+      <main class="container">
+         <div class="semi_container" id="banner_area">
+            <p class="banner_header"><img src="./assets/file/alertNotify.png" alt="">alertNotify<span>JS</span></p>
+            <p class="banner_txt"><span>alertNotifyJS</span> is a javascript framework for developing simple browser alerts.</p>
+            <div class="banner_btn_holder">
+               <a href="#semi_container_02"><button class="banner_btn_1">Get alertotify <i class="fa fa-angle-double-down" aria-hidden="true"></i></button></a>
+            </div>
+         </div>
+         <div class="semi_container" id="semi_container_02">
+            <p class="semi_container_header">🔗 Easy installation process ~</p>
+            <hr class="hr_1">
+            <div class="para">
+               <p class="para_header"><strong>[1] Include JS  </strong></p>
+               <pre>
+                <code class="html">&lt;script src="https://alertnotify.pages.dev/alertNotify/alertNotify.min.js"&gt;&lt;/script&gt;</code>
+                <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+            </pre>
+            </div>
+            <div class="para">
+               <p class="para_header"><strong>[2] Include a CSS theme </strong></p>
+               <pre>
+                <code class="html">&lt;link rel="stylesheet" href="https://alertnotify.pages.dev/alertNotify/theme/defaultTheme.min.css"/&gt;</code>
+                <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+            </pre>
+               <p class="tika_1">💡 &nbsp;Can choose another theme from <a href="./theme_list/">"Themes List"</a></p>
+            </div>
+            <div class="para">
+               <p class="para_header"><strong>[3] Start coding!</strong></p>
+               <pre>
+                <code class="javascript">alertNotify('Your message here', 'type', duration);</code>
+                <button class="copy-btn"><i class="fa-solid fa-copy"></i></button>
+            </pre>
+            </div>
+            <!-- <div class="hr_2_wraper"><hr class="hr_2"><hr class="hr_2"><hr class="hr_2"></div> -->
+         </div>
+         <div class="semi_container" id="semi_container_03">
+            <p class="semi_container_header">🛠 &nbsp;Customization ~</p>
+            <hr class="hr_1">
+            <div class="para_2">
+               <pre class="pre_line"><code>alertNotify('Your message here', 'type', duration);</code></pre>
+               <div class="para_2_sub">
+                  <p class="para_2_sub_header"><strong>[1] Type </strong></p>
+                  <p class="para_2_sub_text">Here default value of "Type" is &nbsp;<code class="hilighter_pre">info</code>&nbsp;; 
+                     <br>
+                     another possible value -    <code class="hilighter_pre">success</code> , &nbsp;
+                     <code class="hilighter_pre">error</code> , &nbsp;
+                     <code class="hilighter_pre">warning</code> , &nbsp;
+                  </p>
+               </div>
+               <div class="para_2_sub">
+                  <p class="para_2_sub_header"><strong>[2] Duration </strong></p>
+                  <p class="para_2_sub_text">Here the value of "duration" must be in "millisecond" &nbsp; like &nbsp;<code class="hilighter_pre">1000</code>&nbsp;; 
+                  </p>
+               </div>
+               <div class="para_2_sub">
+                  <p class="para_2_sub_header" id="example"><strong>* * * Example </strong></p>
+                  <br>
+                  <pre>
+                  <code>alertNotify('Success message', 'success', 3000);</code>
+                  <pre>
+                  <code>alertNotify('Error message', 'error', 3000);</code>
+                  <pre>
+                  <code>alertNotify('Warning message', 'warning', 3000);</code>
+                  <pre>
+                  <code>alertNotify('Info message', 'info', 3000);</code>  
+                  </p>
+               </div>
+            </div>
+            <!-- <div class="hr_2_wraper"><hr class="hr_2"><hr class="hr_2"><hr class="hr_2"></div> -->
+         </div>
+      </main>
+      <footer class="footer">
+         <p class="p2" >&copy; <span>2025</span> alertNotifyJS ; All right reserved</p>
+         <p class="f_3" ><a>Report an issue</a>    <span class="devider">|</span>    <a href="https://github.com/seddike-tanvir/alertNotify">View on github</a>    <span class="devider">|</span>    <a>Give Feedback</a></p>
+         <p class="f_3" >Created by <a href="https://tanvirseddike.web.app">Seddike Tanvir</a>    <span class="devider">|</span>    Licensed under <a href="https://opensource.org/licenses/gpl-3.0">GPLv3</a></p>
+      </footer>
+      <button onclick="topFunction()" id="myBtn" title="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+      <!-- preloader JS -->
+      <script src="./assets/js/preloader.js"></script>
+      <!-- Custom JS -->
+      <script src="./assets/js/script.js"></script>
+      <!-- Highlight.js JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      <!-- alertNotify.js JS -->
+      <script src="/alertNotify/alertNotify.js"></script>
+      <!-- scrollToTop function JS -->
+      <script src="./assets/js/scrollToTopBtn.js"></script>
+   </body>
+</html>

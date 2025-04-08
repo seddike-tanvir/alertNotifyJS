@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Page Not Found | alertNotifyJS</title>
+      <link rel="stylesheet" href="/assets/css/fonts.css">
+      <link rel="shortcut icon" href="/assets/file/favicon.png" type="image/x-icon">
+      <!-- <link rel="stylesheet" href="./assets/css/404--for minify.css"> -->
+      <style>
+         :root{--bg_color_1:#efefef;}*{padding:0;margin:0;box-sizing:border-box;font-family:Poppins}html{background-color:rgb(227 237 253 / .041);overflow-x:hidden;scroll-behavior:smooth}body{margin:0;min-height:100vh;display:flex;flex-direction:column}.navbar{box-shadow:rgb(100 100 111 / .2) 0 7px 29px 0;position:fixed;background-color:var(--bg_color_1);top:0;width:100%;height:max-content;border-bottom:1px solid #00000023;z-index:1;cursor:grab}.nav_header{text-align:left;margin:.7rem 2rem;margin-left:5vw;font-size:2.1rem;font-weight:900}.nav_header>a{text-decoration:none;color:#141414}.nav_header>a>span{font-size:2.6rem;font-weight:100;padding-left:.25rem;color:#00b100;font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif}.container{flex:1;display:flex;justify-content:center;align-items:center;text-align:center;padding:2rem}.error-section{max-width:400px;margin:0 auto;margin-top:10vh}.error-icon{width:50px;margin-bottom:.5rem}.error-section h2{font-size:1.5rem;color:#e74c3c;margin-bottom:.5rem}.error-section p{font-size:1.2rem;color:#7f8c8d;margin-bottom:1rem}.btn{display:inline-block;padding:10px 20px;background-color:#2ecc71;color:#fff;text-decoration:none;border-radius:5px;font-size:1rem;transition:background-color 0.3s ease}.btn:hover{background-color:#27ae60}footer{background-color:#fff;padding:1rem 2rem;text-align:center;box-shadow:0 -2px 4px rgb(0 0 0 / .1)}
+      </style>
+   </head>
+   <body>
+      <!-- Header -->
+      <header class="navbar">
+         <p class="nav_header"><a href="/">alertNotify<span>JS</span></a></p>
+      </header>
+      <!-- Main Content -->
+      <main class="container">
+         <section class="error-section">
+            <img src="/assets/file/error.gif" alt="Error Icon" class="error-icon">
+            <h2>Oops!</h2>
+            <p>The page you are looking for does not exist.</p>
+            <a href="/" class="btn">Go Back to Homepage</a>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer>
+         <p>&copy; 2025 alertNotifyJS. All rights reserved.</p>
+      </footer>
+      <script>
+         document.querySelector('.btn').addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})})
+      </script>
+      <!-- <script src="./assets/js/404--for minify.js"></script> -->
+   </body>
+</html>

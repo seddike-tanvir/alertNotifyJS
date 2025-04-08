@@ -1,0 +1,32 @@
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 4vh;
+    right: 2rem; 
+    z-index: 99; 
+    border: 2px solid #00b100; 
+    outline: none; 
+    background-color: #ffffff;
+
+    color: #f1b603;
+    cursor: pointer; 
+    border-radius: 50%;
+    font-size: 20px; 
+    padding: 9px 11px 4px 11px;
+    box-shadow: rgba(37, 37, 37, 0.15) 1.95px 1.95px 2.6px;
+    transition: .2s;
+}
+  
+#myBtn:hover {
+    /* color: #fec006; 
+    background-color: #00b100; 
+    border: 2px solid #00b100;  */
+
+    /* color: #00b100;  */
+    font-weight: bold;
+    /* background-color: #ffffff;  */
+    /* border: 2px solid #000000b7;  */
+    padding: 6px 11px 7px 11px;
+
+}
