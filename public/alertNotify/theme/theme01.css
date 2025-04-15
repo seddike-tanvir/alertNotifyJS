@@ -1,6 +1,6 @@
 #alert-container {
 	position: fixed;
-	bottom: 10vh;
+	top: 10vh;
 	left: 0;
 	right: 0;
 	display: flex;
