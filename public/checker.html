@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checker</title>
+    <link rel="stylesheet" href="./alertNotify/theme/theme01.min.css">
+    <style>
+        html{
+            background-color: black;
+        }
+        #clickBtn{
+            display: flex;
+            margin: auto;
+            margin-top: 40vh;
+        }
+    </style>
+</head>
+<body>
+    <button id="clickBtn">Click to check !</button>
+
+    <script src="./alertNotify/alertNotify.min.js"></script>
+    <script>
+        document.getElementById('clickBtn').addEventListener("click", showAlert);
+        
+        function showAlert(){
+            alertNotify('Workong fine :)', 'success', 1500);  
+        }
+    </script>
+</body>
+</html>

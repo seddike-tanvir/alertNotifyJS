@@ -1,6 +1,6 @@
 #alert-container {
 	position: fixed;
-	top: 10vh;
+	top: 4vh;
 	left: 0;
 	right: 0;
 	display: flex;
@@ -18,7 +18,7 @@
 	margin: 10px 0;
 	max-width: 70vw;
 	min-width: 100px;
-	transform: translateY(100%);
+	transform: translateY(-100%);
 	transition: all 0.4s cubic-bezier(.25, .46, .45, .94);
 	box-shadow: 0 5px 15px rgb(0 0 0 / .15);
 	pointer-events: auto;
@@ -34,7 +34,7 @@
 }
 
 .custom-alert.hide {
-	transform: translateY(100%);
+	transform: translateY(-100%);
 	opacity: 0
 }
 
