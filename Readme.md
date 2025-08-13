@@ -7,3 +7,7 @@
 <a href="https://alertnotify.pages.dev/#semi_container_02"><button style="    padding: .5rem 1.1rem; border-radius: 8px; border: 1px solid; font-family: Poppins ; background-color: #000000; color: #ffffff; transition: .3s ease-in-out;">Get alertotify 🔗<i class="fa fa-angle-double-down" aria-hidden="true"></i></button></a>
 
 
+<img width="946" height="611" alt="image" src="https://github.com/user-attachments/assets/7808883b-f318-4546-b86c-293db17e1000" />
+
+
+
